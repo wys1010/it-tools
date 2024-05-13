@@ -1,69 +1,86 @@
+'404':
+  notFound: 404 Not Found
+  sorry: Désolé, cette page n'existe pas
+  maybe: >-
+    Peut-être que le cache fait des siennes, essayez de forcer le
+    rafraîchissement ?
+  backHome: Retour à l'accueil
 home:
   categories:
-    newestTools: 'Les nouveaux outils'
-    favoriteTools: 'Vos outils favoris'
-    allTools: 'Tous les outils'
-  subtitle: 'Outils pour les développeurs'
-  toggleMenu: 'Menu'
+    newestTools: Les nouveaux outils
+    favoriteTools: Vos outils favoris
+    allTools: Tous les outils
+  subtitle: Outils pour les développeurs
+  toggleMenu: Menu
   home: Accueil
-  uiLib: 'UI Lib'
-  buyMeACoffee: 'Soutenez IT-Tools'
+  uiLib: UI Lib
+  buyMeACoffee: Soutenez IT-Tools
   follow:
-    title: 'Vous aimez it-tools ?'
-    p1: 'Soutenez-nous avec une star sur'
-    githubRepository: "le dépôt GitHub d'IT-Tools"
-    p2: 'ou suivez-nous sur'
-    twitterAccount: "le compte Twitter d'IT-Tools"
-    thankYou: 'Merci !'
+    title: Vous aimez it-tools ?
+    p1: Soutenez-nous avec une star sur
+    githubRepository: le dépôt GitHub d'IT-Tools
+    p2: ou suivez-nous sur
+    twitterAccount: le compte Twitter d'IT-Tools
+    thankYou: Merci !
   nav:
-    github: 'Dépôt GitHub'
-    githubRepository: "Dépôt GitHub d'IT-Tools"
-    twitter: 'Compte Twitter'
-    twitterAccount: "Compte Twitter d'IT-Tools"
-    about: "À propos d'IT-Tools"
-    aboutLabel: 'À propos'
-    darkMode: 'Mode sombre'
-    lightMode: 'Mode clair'
-    mode: 'Basculer le mode sombre/clair'
+    github: Dépôt GitHub
+    githubRepository: Dépôt GitHub d'IT-Tools
+    twitter: Compte Twitter
+    twitterAccount: Compte Twitter d'IT-Tools
+    about: À propos d'IT-Tools
+    aboutLabel: À propos
+    darkMode: Mode sombre
+    lightMode: Mode clair
+    mode: Basculer le mode sombre/clair
 about:
   content: >
     # À propos de IT-Tools
 
-    Ce merveilleux site, fait avec ❤ par [Corentin Thomasset](https://github.com/CorentinTh), regroupe des outils utiles pour les développeurs et les personnes travaillant dans l'informatique. Si vous le trouvez utile, n'hésitez pas à le partager et n'oubliez pas de le mettre dans vos favoris !
+    Ce merveilleux site, fait avec ❤ par
+    [CorentinTh](https://github.com/CorentinTh), regroupe des outils utiles pour
+    les développeurs et les personnes travaillant dans l'informatique. Si vous
+    le trouvez utile, n'hésitez pas à le partager et n'oubliez pas de le mettre
+    dans vos favoris !
 
-    IT Tools est open-source (sous licence MIT) et gratuit, et le restera toujours, mais cela me coûte de l'argent pour l'héberger et renouveler le nom de domaine. Si vous voulez soutenir mon travail, et m'encourager à ajouter plus d'outils, n'hésitez pas à me [soutenir](https://www.buymeacoffee.com/cthmsst).
+    IT Tools est open-source (sous licence MIT) et gratuit, et le restera
+    toujours, mais cela me coûte de l'argent pour l'héberger et renouveler le
+    nom de domaine. Si vous voulez soutenir mon travail, et m'encourager à
+    ajouter plus d'outils, n'hésitez pas à me
+    [soutenir](https://www.buymeacoffee.com/cthmsst).
 
     ## Technologies
 
-    IT Tools est fait en Vue.js (Vue 3) avec la bibliothèque de composants Naive UI et est hébergé et déployé en continu par Vercel. Des bibliothèques open-source tierces sont utilisées dans certains outils, vous pouvez trouver la liste complète dans le fichier [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) du dépôt.
+    IT Tools est fait en Vue.js (Vue 3) avec la bibliothèque de composants Naive
+    UI et est hébergé et déployé en continu par Vercel. Des bibliothèques
+    open-source tierces sont utilisées dans certains outils, vous pouvez trouver
+    la liste complète dans le fichier
+    [package.json](https://github.com/wys1010/it-tools/blob/main/package.json)
+    du dépôt.
 
     ## Vous avez trouvé un bug ? Un outil manque ?
 
-    Si vous avez besoin d'un outil qui n'est pas encore présent ici, et que vous pensez qu'il peut être utile, vous êtes invité à soumettre une demande de fonctionnalité dans la [section issue](https://github.com/CorentinTh/it-tools/issues/new/choose) du dépôt GitHub.
-
-404:
-  notFound: '404 Not Found'
-  sorry: "Désolé, cette page n'existe pas"
-  maybe: 'Peut-être que le cache fait des siennes, essayez de forcer le rafraîchissement ?'
-  backHome: "Retour à l'accueil"
+    Si vous avez besoin d'un outil qui n'est pas encore présent ici, et que vous
+    pensez qu'il peut être utile, vous êtes invité à soumettre une demande de
+    fonctionnalité dans la [section
+    issue](https://github.com/wys1010/it-tools/issues/new/choose) du dépôt
+    GitHub.
 toolCard:
   new: Nouveau
 search:
   label: Rechercher
 tools:
   categories:
-    favorite-tools: 'Vos outils favoris'
+    favorite-tools: Vos outils favoris
     crypto: Cryptographie
     converter: Convertisseur
     web: Web
-    images and videos: 'Images & Vidéos'
+    images and videos: Images & Vidéos
     development: Développement
     network: Réseau
     math: Math
     measurement: Mesure
     text: Texte
     data: Données
-
   token-generator:
     title: Générateur de token
     description: >-
@@ -79,3 +96,45 @@ tools:
     copied: Le token a été copié
     length: Longueur
     tokenPlaceholder: Le token...
+  base-converter:
+    description: >-
+      Convertir un nombre entre différentes bases (décimales, hexadécimales,
+      binaires, octales, base64, ...)
+    title: Convertisseur de base entière
+  base64-file-converter:
+    description: >-
+      Convertissez une chaîne, un fichier ou une image en sa représentation
+      base64.
+    title: Convertisseur de fichiers Base64
+  base64-string-converter:
+    description: Encodez et décodez simplement les chaînes dans leur représentation base64.
+    title: Encodeur/décodeur de chaîne Base64
+  basic-auth-generator:
+    description: >-
+      Générez un en-tête d'authentification de base base64 à partir d'un nom
+      d'utilisateur et d'un mot de passe.
+    title: Générateur d'authentification de base
+  bcrypt:
+    description: >-
+      Hachez et comparez la chaîne de texte à l'aide de bcrypt. 
+
+      Bcrypt est une fonction de hachage de mot de passe basée sur le chiffre
+      Blowfish.
+    title: Bcrypt
+  benchmark-builder:
+    description: >-
+      Comparez facilement le temps d'exécution des tâches avec ce générateur de
+      benchmark en ligne très simple.
+    title: Constructeur de référence
+  bip39-generator:
+    description: >-
+      Générez une phrase secrète BIP39 à partir d'un mnémonique existant ou
+      aléatoire, ou obtenez le mnémonique à partir de la phrase secrète.
+    title: Générateur de phrase secrète BIP39
+  camera-recorder:
+    description: >-
+      Prenez une photo ou enregistrez une vidéo depuis votre webcam ou votre
+      appareil photo.
+    title: Caméra enregistreur
+  case-converter:
+    description: Transformez la casse d'une chaîne et choisissez entre différents formats

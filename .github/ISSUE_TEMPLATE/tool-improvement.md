@@ -3,7 +3,7 @@ name: Tool improvement
 about: Improvement on an existing tool
 title: '[TOOL IMPROVEMENT]'
 labels: enhancement
-assignees: CorentinTh
+assignees: wys1010
 ---
 
 **Describe the solution you'd like**

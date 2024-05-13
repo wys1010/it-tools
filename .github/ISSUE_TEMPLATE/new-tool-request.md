@@ -3,7 +3,7 @@ name: New tool request
 about: Suggest a new tool idea
 title: '[NEW TOOL]'
 labels: new tool
-assignees: CorentinTh
+assignees: wys1010
 ---
 
 **What tool do you want?**

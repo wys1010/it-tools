@@ -1,4 +1,4 @@
 /* TEAM */
-Developer: Corentin Thomasset
-Site: https://github.com/CorentinTh
-Twitter: @cthmsst
+Developer: wys1010
+Site: https://github.com/wys1010
+Twitter: @wqs1010

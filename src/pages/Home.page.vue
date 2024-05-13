@@ -1,36 +1,29 @@
 <script setup lang="ts">
-import { Heart } from '@vicons/tabler';
-import { useHead } from '@vueuse/head';
-import ColoredCard from '../components/ColoredCard.vue';
-import ToolCard from '../components/ToolCard.vue';
-import { useToolStore } from '@/tools/tools.store';
-import { config } from '@/config';
+  import { Heart } from '@vicons/tabler';
+  import { useHead } from '@vueuse/head';
+  import ColoredCard from '../components/ColoredCard.vue';
+  import ToolCard from '../components/ToolCard.vue';
+  import { useToolStore } from '@/tools/tools.store';
+  import { config } from '@/config';
 
-const toolStore = useToolStore();
+  const toolStore = useToolStore();
 
-useHead({ title: 'IT Tools - Handy online tools for developers' });
-const { t } = useI18n();
+  useHead({ title: 'IT Tools - Handy online tools for developers' });
+  const { t } = useI18n();
 </script>
 
 <template>
   <div class="pt-50px">
     <div class="grid-wrapper">
-      <div v-if="config.showBanner" class="grid grid-cols-1 gap-12px lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
+      <div v-if="config.showBanner"
+        class="grid grid-cols-1 gap-12px lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-2 xl:grid-cols-4">
         <ColoredCard :title="$t('home.follow.title')" :icon="Heart">
           {{ $t('home.follow.p1') }}
-          <a
-            href="https://github.com/CorentinTh/it-tools"
-            rel="noopener"
-            target="_blank"
-            :aria-label="$t('home.follow.githubRepository')"
-          >GitHub</a>
+          <a href="https://github.com/wys1010/it-tools" rel="noopener" target="_blank"
+            :aria-label="$t('home.follow.githubRepository')">GitHub</a>
           {{ $t('home.follow.p2') }}
-          <a
-            href="https://twitter.com/ittoolsdottech"
-            rel="noopener"
-            target="_blank"
-            :aria-label="$t('home.follow.twitterAccount')"
-          >Twitter</a>.
+          <a href="https://twitter.com/ittoolsdottech" rel="noopener" target="_blank"
+            :aria-label="$t('home.follow.twitterAccount')">Twitter</a>.
           {{ $t('home.follow.thankYou') }}
           <n-icon :component="Heart" />
         </ColoredCard>
@@ -67,18 +60,18 @@ const { t } = useI18n();
 </template>
 
 <style scoped lang="less">
-.height-enter-active,
-.height-leave-active {
-  transition: all 0.5s ease-in-out;
-  overflow: hidden;
-  max-height: 500px;
-}
+  .height-enter-active,
+  .height-leave-active {
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    max-height: 500px;
+  }
 
-.height-enter-from,
-.height-leave-to {
-  max-height: 42px;
-  overflow: hidden;
-  opacity: 0;
-  margin-bottom: 0;
-}
+  .height-enter-from,
+  .height-leave-to {
+    max-height: 42px;
+    overflow: hidden;
+    opacity: 0;
+    margin-bottom: 0;
+  }
 </style>

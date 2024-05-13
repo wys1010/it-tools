@@ -1,71 +1,123 @@
+'404':
+  notFound: 404 Não Encontrado
+  sorry: Desculpe, parece que essa página não existe
+  maybe: Talvez o cache esteja fazendo bobagem, que tal tentar forçar a atualização?
+  backHome: Voltar para o início
 home:
   categories:
-    newestTools: 'Novas ferramentas'
-    favoriteTools: 'Suas ferramentas favoritas'
-    allTools: 'Todas as ferramentas'
-  subtitle: 'Ferraentas úteis para desenvolvedores'
-  toggleMenu: 'Menu'
-  home: 'Início'
-  uiLib: 'Biblioteca de UI'
-  support: 'Apoie o desenvolvimento do IT Tools'
-  buyMeACoffee: 'Pague-me um café'
+    newestTools: Novas ferramentas
+    favoriteTools: Suas ferramentas favoritas
+    allTools: Todas as ferramentas
+  subtitle: Ferraentas úteis para desenvolvedores
+  toggleMenu: Menu
+  home: Início
+  uiLib: Biblioteca de UI
+  support: Apoie o desenvolvimento do IT Tools
+  buyMeACoffee: Pague-me um café
   follow:
-    title: 'Gostou do it-tools?'
-    p1: 'Dê uma estrela no'
-    githubRepository: 'repositório do IT-Tools no GitHub'
-    p2: 'ou siga nossa'
-    twitterAccount: 'conta IT-Tools no Twitter'
-    thankYou: 'Obrigado !'
+    title: Gostou do it-tools?
+    p1: Dê uma estrela no
+    githubRepository: repositório do IT-Tools no GitHub
+    p2: ou siga nossa
+    twitterAccount: conta IT-Tools no Twitter
+    thankYou: Obrigado !
   nav:
-    github: 'Repositório no GitHub'
-    githubRepository: 'repositório do IT-Tools no GitHub'
-    twitter: 'Conta no Twitter'
-    twitterAccount: 'conta do IT Tools no Twitter'
-    about: 'Sobre o IT-Tools'
-    aboutLabel: 'Sobre'
-    darkMode: 'Modo Escuro'
-    lightMode: 'Modo Claro'
-    mode: 'Trocar modo escuro/claro'
+    github: Repositório no GitHub
+    githubRepository: repositório do IT-Tools no GitHub
+    twitter: Conta no Twitter
+    twitterAccount: conta do IT Tools no Twitter
+    about: Sobre o IT-Tools
+    aboutLabel: Sobre
+    darkMode: Modo Escuro
+    lightMode: Modo Claro
+    mode: Trocar modo escuro/claro
 about:
   content: >
     # Sobre o IT-Tools
 
-    Este site maravilhoso, feito com ❤ por [Corentin Thomasset](https://github.com/CorentinTh), junta ferramentas úteis para desenvolvedores e outras pessoas que trabalham com TI. Se você achar o site útil, fique à vontade para compartilhar com quem também possa gostar e não esqueça de salvar o bookmark na sua barra de atalhos!
+    Este site maravilhoso, feito com ❤ por
+    [CorentinTh](https://github.com/CorentinTh), junta ferramentas úteis para
+    desenvolvedores e outras pessoas que trabalham com TI. Se você achar o site
+    útil, fique à vontade para compartilhar com quem também possa gostar e não
+    esqueça de salvar o bookmark na sua barra de atalhos!
 
-    O IT Tools é código aberto (sob a licença MIT), é gratuito, e sempre será, mas custa dinheiro para hospedar e renovar o domínio. Se quiser apoiar meu trabalho e me encorajar a adicionar mais ferramentas, por favor considere [ser patrocinador](https://www.buymeacoffee.com/cthmsst).
+    O IT Tools é código aberto (sob a licença MIT), é gratuito, e sempre será,
+    mas custa dinheiro para hospedar e renovar o domínio. Se quiser apoiar meu
+    trabalho e me encorajar a adicionar mais ferramentas, por favor considere
+    [ser patrocinador](https://www.buymeacoffee.com/cthmsst).
 
     ## Tecnologias
 
-    O IT Tools é feito em Vue.js (Vue 3) com a biblioteca de componentes Naive UI e é hospedado pela Vercel. Bibliotecas de código aberto de terceiros são usadas em algumas ferramentas e você pode encontrar a lista completa no arquivo [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) do repositório.
+    O IT Tools é feito em Vue.js (Vue 3) com a biblioteca de componentes Naive
+    UI e é hospedado pela Vercel. Bibliotecas de código aberto de terceiros são
+    usadas em algumas ferramentas e você pode encontrar a lista completa no
+    arquivo
+    [package.json](https://github.com/wys1010/it-tools/blob/main/package.json)
+    do repositório.
 
     ## Achou um bug? Está faltando uma ferramenta?
 
-    Se você precisa de uma ferramenta que ainda não existe aqui e acha que pode ser útil, seu pedido será bem vindo na [seção de issues](https://github.com/CorentinTh/it-tools/issues/new/choose) no repositório do GitHub.
+    Se você precisa de uma ferramenta que ainda não existe aqui e acha que pode
+    ser útil, seu pedido será bem vindo na [seção de
+    issues](https://github.com/wys1010/it-tools/issues/new/choose) no
+    repositório do GitHub.
 
-    E se você encontrar um bug ou se algo não funcionar como esperado, por favor registre um relato de bug na [seção de issues](https://github.com/CorentinTh/it-tools/issues/new/choose) no GitHub.
-
-404:
-  notFound: '404 Não Encontrado'
-  sorry: 'Desculpe, parece que essa página não existe'
-  maybe: 'Talvez o cache esteja fazendo bobagem, que tal tentar forçar a atualização?'
-  backHome: 'Voltar para o início'
+    E se você encontrar um bug ou se algo não funcionar como esperado, por favor
+    registre um relato de bug na [seção de
+    issues](https://github.com/wys1010/it-tools/issues/new/choose) no GitHub.
 favoriteButton:
-  remove: 'Remover dos favoritos'
-  add: 'Adicionar aos favoritos'
+  remove: Remover dos favoritos
+  add: Adicionar aos favoritos
 toolCard:
-  new: 'Novo'
+  new: Novo
 search:
-  label: 'Pesquisar'
+  label: Pesquisar
 tools:
   categories:
-    favorite-tools: 'Suas ferramentas favoritas'
-    crypto: 'Cripto'
-    converter: 'Conversores'
-    web: 'Web'
-    images and videos: 'Imagens & Vídeos'
-    development: 'Desenvolvimento'
-    network: 'Rede'
-    math: 'Matemática'
-    measurement: 'Medidas'
-    text: 'Texto'
-    data: 'Dados'
+    favorite-tools: Suas ferramentas favoritas
+    crypto: Cripto
+    converter: Conversores
+    web: Web
+    images and videos: Imagens & Vídeos
+    development: Desenvolvimento
+    network: Rede
+    math: Matemática
+    measurement: Medidas
+    text: Texto
+    data: Dados
+  base-converter:
+    description: >-
+      Converter um número entre diferentes bases (decimal, hexadecimal, binário,
+      octal, base64, ...)
+    title: Conversor de base inteira
+  base64-file-converter:
+    description: Converta uma string, arquivo ou imagem em sua representação base64.
+    title: Conversor de arquivo Base64
+  base64-string-converter:
+    description: Simplesmente codifique e decodifique strings em sua representação base64.
+    title: Codificador/decodificador de string Base64
+  basic-auth-generator:
+    description: >-
+      Gere um cabeçalho de autenticação básico base64 a partir de um nome de
+      usuário e senha.
+    title: Gerador de autenticação básico
+  bcrypt:
+    description: |-
+      Faça hash e compare a string de texto usando bcrypt. 
+      Bcrypt é uma função de hash de senha baseada na cifra Blowfish.
+    title: Bcrypt
+  benchmark-builder:
+    description: >-
+      Compare facilmente o tempo de execução das tarefas com este construtor de
+      benchmark online muito simples.
+    title: Construtor de benchmark
+  bip39-generator:
+    description: >-
+      Gere uma senha BIP39 a partir de um mnemônico existente ou aleatório ou
+      obtenha o mnemônico da senha.
+    title: Gerador de senha BIP39
+  camera-recorder:
+    description: Tire uma foto ou grave um vídeo da sua webcam ou câmera.
+    title: Gravador de câmera
+  case-converter:
+    description: Transforme a caixa de uma string e escolha entre diferentes formatos
