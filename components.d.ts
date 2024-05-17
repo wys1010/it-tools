@@ -68,6 +68,8 @@ declare module 'vue' {
     DeviceInformation: typeof import('./src/tools/device-information/device-information.vue')['default']
     DiffViewer: typeof import('./src/tools/json-diff/diff-viewer/diff-viewer.vue')['default']
     DockerRunToDockerComposeConverter: typeof import('./src/tools/docker-run-to-docker-compose-converter/docker-run-to-docker-compose-converter.vue')['default']
+    Donate_cn: typeof import('./src/pages/donate_cn.vue')['default']
+    Donate_en: typeof import('./src/pages/donate_en.vue')['default']
     DynamicValues: typeof import('./src/tools/benchmark-builder/dynamic-values.vue')['default']
     Editor: typeof import('./src/tools/html-wysiwyg-editor/editor/editor.vue')['default']
     EmojiCard: typeof import('./src/tools/emoji-picker/emoji-card.vue')['default']

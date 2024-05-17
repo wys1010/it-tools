@@ -31,6 +31,16 @@ const router = createRouter({
       name: 'about',
       component: () => import('./pages/About.vue'),
     },
+    {
+      path: '/donate_en',
+      name: 'donate_en',
+      component: () => import('./pages/donate_en.vue'),
+    },
+    {
+      path: '/donate_cn',
+      name: 'donate_cn',
+      component: () => import('./pages/donate_cn.vue'),
+    },
     ...toolsRoutes,
     ...toolsRedirectRoutes,
     ...(config.app.env === 'development' ? demoRoutes : []),

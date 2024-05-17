@@ -114,7 +114,7 @@
         </div>
 
         <!-- <c-tooltip position="bottom" :tooltip="$t('home.support')">
-          <c-button round href="https://www.buymeacoffee.com/cthmsst" rel="noopener" target="_blank"
+          <c-button round href="./donate_en" rel="noopener" target="_blank"
             class="support-button" :bordered="false"
             @click="() => tracker.trackEvent({ eventName: 'Support button clicked' })">
             {{ $t('home.buyMeACoffee') }}
