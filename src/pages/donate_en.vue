@@ -9,7 +9,7 @@
 
     <div style="margin-top: 20px;">
         <!-- 为了安全和可维护性，地址应该从一个可信的源动态获取，并且在客户端进行验证确保其为有效的以太坊地址。这里假设address变量已经包含了有效的地址。 -->
-        <label id="ethereum-address" aria-label="以太坊地址">ETH-USDT地址：</label>
+        <label id="ethereum-address" aria-label="evm-address">EVM Address：</label>
         <span id="address-value" aria-hidden="true">0xd868ea7d8cb66af30398f9503a99b77147d5ee0d</span>
     </div>
 
